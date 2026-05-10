@@ -156,6 +156,210 @@
           <p>Share the date, city, crowd size, and the type of music you want. The set will be shaped around your crowd.</p>
           <div class="booking-links" aria-label="Booking contact options">
             <a href="mailto:djnightwolfawoo@aol.com">djnightwolfawoo@aol.com</a>
+            <a href="tel:+16038180297">Call or text: (603) 818-0297</a>
+          </div>
+        </div>
+        <form class="booking-form" data-booking-form>
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Event date
+            <input type="date" name="date" required>
+          </label>
+          <label>
+            Event type
+            <select name="event" required>
+              <option value="">Select one</option>
+              <option>Birthday party</option>
+              <option>Club night</option>
+              <option>School event</option>
+              <option>Private event</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Details
+            <textarea name="details" rows="4" placeholder="City, crowd size, music style, and start time"></textarea>
+          </label>
+          <button class="button primary" type="submit">Send booking request</button>
+          <p class="form-status" role="status" data-form-status></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="djnightwolfawoo-logo.svg" alt="" width="64" height="64">
+      <p>DJ Nightwolfawoo</p>
+      <div>
+        <a href="#mixes">Mixes</a>
+        <a href="#events">Events</a>
+        <a href="#booking">Booking</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="DJ Nightwolfawoo brings high-energy night sets, club mixes, private events, and party sound for unforgettable crowds.">
+    <title>DJ Nightwolfawoo | Awoo After Dark</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="DJ Nightwolfawoo home">
+        <img src="djnightwolfawoo-logo.svg" alt="" width="52" height="52">
+        <span>DJ Nightwolfawoo</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#mixes">Mixes</a>
+        <a href="#events">Events</a>
+        <a href="#services">Services</a>
+        <a class="nav-cta" href="#booking">Book Nightwolfawoo</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true">
+          <img src="djnightwolfawoo-logo.svg" alt="">
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Awoo after dark</p>
+          <h1 id="hero-title">DJ Nightwolfawoo</h1>
+          <p class="hero-copy">Club energy, private-party precision, and late-night mixes built to keep the floor moving.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#booking">Book a set</a>
+            <a class="button secondary" href="#mixes">Hear the vibe</a>
+          </div>
+        </div>
+        <div class="set-panel" aria-label="Featured set">
+          <p>Featured set</p>
+          <strong>Midnight Moon Mix</strong>
+          <div class="waveform" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" aria-label="Nightwolfawoo highlights">
+        <div>
+          <p class="section-kicker">Sound for the moment</p>
+          <h2>Built for birthdays, clubs, lounges, school nights, and pop-up parties.</h2>
+        </div>
+        <div class="stats">
+          <div>
+            <strong>4 hr</strong>
+            <span>standard party set</span>
+          </div>
+          <div>
+            <strong>360</strong>
+            <span>crowd-ready sound</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>night mode energy</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mixes" id="mixes" aria-labelledby="mixes-title">
+        <div class="section-heading">
+          <p class="section-kicker">Mixes</p>
+          <h2 id="mixes-title">Choose the mood.</h2>
+        </div>
+        <div class="mix-grid">
+          <article class="mix-card">
+            <span class="mix-number">01</span>
+            <h3>Moonrise Warmup</h3>
+            <p>Afrobeats, R&amp;B, and clean groove transitions for early arrivals.</p>
+          </article>
+          <article class="mix-card">
+            <span class="mix-number">02</span>
+            <h3>Neon Peak Hour</h3>
+            <p>Hip-hop, house, and Latin club tracks with sharper drops.</p>
+          </article>
+          <article class="mix-card">
+            <span class="mix-number">03</span>
+            <h3>Awoo Encore</h3>
+            <p>Sing-along closers and high-energy throwbacks for the last hour.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section events" id="events" aria-labelledby="events-title">
+        <div class="section-heading">
+          <p class="section-kicker">Next nights</p>
+          <h2 id="events-title">Upcoming appearances.</h2>
+        </div>
+        <div class="event-list">
+          <article class="event-row">
+            <time datetime="2026-06-14">Jun 14</time>
+            <div>
+              <h3>Night Market Session</h3>
+              <p>Outdoor pop-up set with dance, Latin, and club edits.</p>
+            </div>
+            <a href="#booking" aria-label="Book DJ Nightwolfawoo for a similar event">Book similar</a>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-07-05">Jul 05</time>
+            <div>
+              <h3>Moonlight Birthday Bash</h3>
+              <p>Private party package with lights, announcements, and requests.</p>
+            </div>
+            <a href="#booking" aria-label="Book DJ Nightwolfawoo for a birthday">Book similar</a>
+          </article>
+          <article class="event-row">
+            <time datetime="2026-08-22">Aug 22</time>
+            <div>
+              <h3>Backyard Bass Night</h3>
+              <p>Summer set made for families, friends, and a late dance floor.</p>
+            </div>
+            <a href="#booking" aria-label="Book DJ Nightwolfawoo for a backyard event">Book similar</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section services" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="section-kicker">Services</p>
+          <h2 id="services-title">Party packages.</h2>
+        </div>
+        <div class="service-grid">
+          <article>
+            <h3>Private Events</h3>
+            <p>Birthdays, graduations, family parties, and backyard nights with a customized set list.</p>
+          </article>
+          <article>
+            <h3>Club Sets</h3>
+            <p>Peak-hour mixes, clean transitions, and sound that keeps the room locked in.</p>
+          </article>
+          <article>
+            <h3>Sound &amp; Lights</h3>
+            <p>Speaker setup, basic lighting, mic support, and arrival music for smooth event flow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="booking" id="booking" aria-labelledby="booking-title">
+        <div class="booking-copy">
+          <p class="section-kicker">Bookings</p>
+          <h2 id="booking-title">Bring Nightwolfawoo to your next night.</h2>
+          <p>Share the date, city, crowd size, and the type of music you want. The set will be shaped around your crowd.</p>
+          <div class="booking-links" aria-label="Booking contact options">
+            <a href="mailto:djnightwolfawoo@aol.com">djnightwolfawoo@aol.com</a>
             <a href="tel:+10000000000">Call or text: (000) 000-0000</a>
           </div>
         </div>
