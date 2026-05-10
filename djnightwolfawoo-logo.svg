@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">DJNIGHTWOLFAWOO logo</title>
+  <desc id="desc">A night-themed DJ wolf logo with headphones, turntable rings, moon, stars, and bold wordmark.</desc>
+  <defs>
+    <linearGradient id="night" x1="120" y1="78" x2="1080" y2="1122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15152d"/>
+      <stop offset=".48" stop-color="#26235b"/>
+      <stop offset="1" stop-color="#071017"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="333" y1="355" x2="867" y2="813" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#78f2ff"/>
+      <stop offset=".52" stop-color="#22b9ff"/>
+      <stop offset="1" stop-color="#9a6cff"/>
+    </linearGradient>
+    <linearGradient id="moonGold" x1="736" y1="168" x2="972" y2="402" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff5b6"/>
+      <stop offset=".62" stop-color="#f7c756"/>
+      <stop offset="1" stop-color="#f27b44"/>
+    </linearGradient>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.76 0 0 0 0 1 0 0 0 .72 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="wordGlow" x="-12%" y="-30%" width="124%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#2fc7ff" flood-opacity=".72"/>
+    </filter>
+    <clipPath id="badgeClip">
+      <circle cx="600" cy="560" r="468"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#05070c"/>
+  <circle cx="600" cy="560" r="504" fill="url(#night)"/>
+  <circle cx="600" cy="560" r="502" fill="none" stroke="#1cf4ff" stroke-width="8"/>
+  <circle cx="600" cy="560" r="468" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="18"/>
+
+  <g clip-path="url(#badgeClip)">
+    <circle cx="817" cy="279" r="120" fill="url(#moonGold)"/>
+    <circle cx="856" cy="244" r="118" fill="#19173a"/>
+    <path d="M156 702c90-45 176-63 259-54 102 10 154 53 252 42 105-11 167-78 286-76 73 1 139 27 199 73v396H156Z" fill="#070b12" opacity=".78"/>
+    <path d="M172 760c119-66 220-82 303-48 80 33 126 77 215 48 95-31 154-85 277-58 59 13 112 40 161 80v324H172Z" fill="#101629" opacity=".94"/>
+  </g>
+
+  <g fill="#ffffff" opacity=".84">
+    <circle cx="242" cy="270" r="7"/>
+    <circle cx="323" cy="192" r="4"/>
+    <circle cx="958" cy="463" r="5"/>
+    <circle cx="1013" cy="641" r="4"/>
+    <path d="M253 441l9 24 24 9-24 9-9 24-9-24-24-9 24-9Z"/>
+    <path d="M973 167l6 17 17 6-17 6-6 17-6-17-17-6 17-6Z"/>
+  </g>
+
+  <g transform="translate(600 567)">
+    <circle r="300" fill="#071019" stroke="#1df0ff" stroke-width="9" opacity=".95"/>
+    <circle r="242" fill="none" stroke="#2fc7ff" stroke-opacity=".23" stroke-width="18"/>
+    <circle r="180" fill="none" stroke="#ffffff" stroke-opacity=".1" stroke-width="6"/>
+    <circle r="72" fill="#0e1330" stroke="url(#cyanGlow)" stroke-width="12"/>
+    <circle r="20" fill="#5be8ff"/>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M-274 16c-28-175 92-322 274-322S302-159 274 16" stroke="url(#cyanGlow)" stroke-width="30" filter="url(#softGlow)"/>
+      <path d="M-278 28v96c0 39 32 70 71 70h36V-32h-36c-39 0-71 22-71 60Z" fill="#101932" stroke="#76f6ff" stroke-width="10"/>
+      <path d="M278 28v96c0 39-32 70-71 70h-36V-32h36c39 0 71 22 71 60Z" fill="#101932" stroke="#76f6ff" stroke-width="10"/>
+      <path d="M-346 84h72M274 84h72" stroke="#2fc7ff" stroke-width="14"/>
+    </g>
+
+    <g filter="url(#softGlow)">
+      <path d="M-190-178-95-70 0-203 95-70l95-108-37 241 75 111-128 32-64 112-36-106-36 106-64-112-128-32 75-111Z" fill="#eefaff"/>
+      <path d="M-166-136-88-52-2-174 88-52l78-84-32 188 62 92-111 27-54 95-33-96-33 96-54-95-111-27 62-92Z" fill="#0b1020"/>
+      <path d="M-112 26-55-12-12 20-62 42Zm224 0L55-12 12 20l50 22Z" fill="#55e8ff"/>
+      <path d="M-48 105 0 76l48 29-48 29Z" fill="#ffffff"/>
+      <path d="M-87 157c44 40 130 40 174 0" fill="none" stroke="#55e8ff" stroke-width="12" stroke-linecap="round"/>
+    </g>
+
+    <path d="M-332 292c78-47 147-69 207-65 75 5 111 46 178 35 63-11 111-57 181-48 42 5 82 24 120 57" fill="none" stroke="#ffda63" stroke-width="18" stroke-linecap="round" opacity=".9"/>
+  </g>
+
+  <g filter="url(#wordGlow)">
+    <text x="600" y="990" text-anchor="middle" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="102" fill="#f7fbff" letter-spacing="4">DJNIGHTWOLF</text>
+    <text x="600" y="1083" text-anchor="middle" font-family="'Arial Black', Impact, sans-serif" font-size="92" fill="#5cecff" letter-spacing="14">AWOO</text>
+  </g>
+
+  <path d="M269 924c72 40 176 63 331 63s259-23 331-63" fill="none" stroke="#f7c756" stroke-width="7" stroke-linecap="round" opacity=".82"/>
+</svg>
